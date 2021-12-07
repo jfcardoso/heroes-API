@@ -1,3 +1,7 @@
+API de gerenciamento de heróis utilizando Spring WebFlux, junto com a library reativa Reactor, usando o banco DynamoDb localmente para armazenar os dados.
+
+
+
 Executar dynamo: 
 
  java -Djava.library.path=./DynamoDBLocal_lib -jar DynamoDBLocal.jar -sharedDb
